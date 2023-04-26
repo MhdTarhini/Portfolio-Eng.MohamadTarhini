@@ -43,8 +43,8 @@ const ExpercienceSection = () => {
       p={8}
       alignitems="flex-start"
       spacing={8}>
-      <Heading as="h1" id="CV-section">
-        My CV
+      <Heading as="h1" id="Expercience-section">
+        Expercience
       </Heading>
       <Box
         display="grid"
