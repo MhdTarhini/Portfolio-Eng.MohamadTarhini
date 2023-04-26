@@ -37,30 +37,32 @@ const projects = [
 const ExpercienceSection = () => { 
   
  return (
-    <FullScreenSection
-      backgroundColor="#14532d"
-      isDarkBackground
-      p={8}
-      alignitems="flex-start"
-      spacing={8}>
-      <Heading as="h1" id="Expercience-section">
-        Expercience
-      </Heading>
-      <Box
-        display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
-        gridGap={8}>
-        {projects.map((project) => (
-          <CvCard
-            key={project.title}
-            title={project.title}
-            description={project.description}
-            url={project.url}
-            imageSrc={project.getImageSrc()}
-          />
-        ))}
-      </Box>
-    </FullScreenSection>
+<VStack
+      onClick={handleClick(url)}
+      direction={{ base: "column", sm: "row" }}
+      overflow="hidden"
+      variant="outline"
+      cursor="pointer"
+      style={{ width: 600, height: 150 }}>
+      <Image objectFit="cover"
+        maxW={{ base: "100%", sm: "200px" }}
+        src={imageSrc}
+        alt={title} />
+      <VStack spacing={4} p={4} alignItems="flex-start">
+        <HStack justifyContent="space-between" alignItems="center">
+          <Heading as="h3" size="md">
+            {title}
+          </Heading>
+        </HStack>
+        <Text color="#64748b" fontSize="lg">
+          {description}
+        </Text>
+        <HStack spacing={2} alignItems="center">
+          <p>see more</p>
+          <FontAwesomeIcon icon={faArrowRight} size="1x" />
+        </HStack>
+      </VStack>
+    </VStack>
  ); 
 }; 
  
