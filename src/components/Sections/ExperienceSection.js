@@ -1,7 +1,7 @@
 import React from "react"; 
 import FullScreenSection from "../FullScreenSection"; 
-import { Box, Heading } from "@chakra-ui/react"; 
-import Card from "../Card"; 
+import { Box, Heading } from "@chakra-ui/react";  
+import CvCard from "../MinCard";
  
 const projects = [
   {
@@ -37,30 +37,30 @@ const projects = [
 const ExpercienceSection = () => { 
   
  return (
-   <FullScreenSection
-     backgroundColor="#14532d"
-     isDarkBackground
-     p={8}
-     alignitems="flex-start"
-     spacing={8}>
-     <Heading as="h1" id="Experience-section">
-       Experiences
-     </Heading>
-     <Box
-       display="grid"
-       gridTemplateColumns="repeat(2,minmax(0,1fr))"
-       gridGap={8}>
-       {projects.map((project) => (
-         <Card
-           key={project.title}
-           title={project.title}
-           description={project.description}
-           url={project.url}
-           imageSrc={project.getImageSrc()}
-         />
-       ))}
-     </Box>
-   </FullScreenSection>
+    <FullScreenSection
+      backgroundColor="#14532d"
+      isDarkBackground
+      p={8}
+      alignitems="flex-start"
+      spacing={8}>
+      <Heading as="h1" id="CV-section">
+        My CV
+      </Heading>
+      <Box
+        display="grid"
+        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridGap={8}>
+        {projects.map((project) => (
+          <CvCard
+            key={project.title}
+            title={project.title}
+            description={project.description}
+            url={project.url}
+            imageSrc={project.getImageSrc()}
+          />
+        ))}
+      </Box>
+    </FullScreenSection>
  ); 
 }; 
  
