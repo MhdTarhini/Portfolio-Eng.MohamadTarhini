@@ -30,7 +30,7 @@ function CoverLetter() {
             I am excited about the opportunity to apply my skills and knowledge
             to a dynamic and fast work environment. Throughout my courses and
             personal projects, I have gained experience in{" "}
-            <strong>HTML, CSS, JavaScript , React and Python Language.</strong>{" "}
+            <strong>HTML, CSS, JavaScript , ReactJs and Python Language.</strong>{" "}
           </p>
           <p>
             I have also worked with various web development frameworks such as
