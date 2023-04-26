@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Eng.MohamadTarhini/static/css/main.df6a7eab.css",
+    "main.js": "/Portfolio-Eng.MohamadTarhini/static/js/main.0f910459.js",
+    "static/js/111.bb39efaf.chunk.js": "/Portfolio-Eng.MohamadTarhini/static/js/111.bb39efaf.chunk.js",
+    "static/media/photo4.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
+    "static/media/photo2.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo2.7d510936625768642967.jpg",
+    "static/media/photo3.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo3.9a32dfac129b20149889.jpg",
+    "static/media/photo1.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo1.76b22eb753ddc88e0626.jpg",
+    "static/media/development-scaled.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/development-scaled.590d71ddab8cc0c5e47c.jpg",
+    "static/media/certificate.webp": "/Portfolio-Eng.MohamadTarhini/static/media/certificate.ce9ae13a061fa84346ec.webp",
+    "static/media/imp-of-work-ex.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/imp-of-work-ex.1edbbdcd964f9af72f7a.jpg",
+    "static/media/civil.png": "/Portfolio-Eng.MohamadTarhini/static/media/civil.0b394f63c805faba5a33.png",
+    "static/media/education.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/education.2589b6f3c474e5bbe956.jpg",
+    "static/media/skills.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/skills.04b61b0b1dd0bf555ffc.jpg",
+    "index.html": "/Portfolio-Eng.MohamadTarhini/index.html",
+    "main.df6a7eab.css.map": "/Portfolio-Eng.MohamadTarhini/static/css/main.df6a7eab.css.map",
+    "main.0f910459.js.map": "/Portfolio-Eng.MohamadTarhini/static/js/main.0f910459.js.map",
+    "111.bb39efaf.chunk.js.map": "/Portfolio-Eng.MohamadTarhini/static/js/111.bb39efaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df6a7eab.css",
+    "static/js/main.0f910459.js"
+  ]
+}
