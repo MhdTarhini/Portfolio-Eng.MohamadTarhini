@@ -9,7 +9,7 @@ const projects = [
     description:
       "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
     getImageSrc: () => require("../images/photo1.jpg"),
-    url: "http://www.google.com/",
+    url: "",
   },
   {
     title: "React Infinite Scroll",
@@ -29,7 +29,7 @@ const projects = [
     title: "Event planner 22",
     description:
       "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+    getImageSrc: () => require(""),
     url: "projects2",
   },
 ]; 
