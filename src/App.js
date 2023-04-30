@@ -15,7 +15,6 @@ import CertificatesSection from "./components/Sections/CertificatesSection"
 function App() {
   return (
     <ChakraProvider>
-      <main>
         <Header />
         <LandingSection />
         <CoverLetter />
@@ -28,7 +27,6 @@ function App() {
         <SkillsSection/>
         <ContactMeSection />
         <Footer />
-      </main>
     </ChakraProvider>
   );
 }

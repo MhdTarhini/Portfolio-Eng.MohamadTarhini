@@ -1,37 +1,25 @@
 import React from "react";
 import FullScreenSection from "../FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
-import Card from "../Card";
-import Card2 from "../Card";
+import CardLg from "../Card";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
-const projects = [
+const Education = [
   {
-    title: "React Space",
-    description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+    title: "Bachelor's in Civil Engineering",
+    icon:faGraduationCap,
+    description:"During this journey i'm improving my knowledge in Research Methods and using SPSS Software, Statistics, Corporate Govern",
+    date:"2015-2020",
+    university:"Islamic University of lebanon",
     getImageSrc: () => require("../images/photo1.jpg"),
-    url: "http://www.google.com/",
   },
   {
-    title: "React Infinite Scroll",
-    description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+    title: "Master of Business Administration",
+    icon:faGraduationCap,
+    date:"2021-Present",
+    university:"Islamic University of lebanon",
+    description:"During this journey i'm improving my knowledge in Research Methods and using SPSS Software, Statistics, Corporate Governance , Financial Accounting.",   
     getImageSrc: () => require("../images/photo2.jpg"),
-    url: "http://www.google.com/",
-  },
-  {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-    url: "http://www.google.com/",
-  },
-  {
-    title: "Event planner",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
-    url: "http://www.google.com/",
   },
 ];
 
@@ -50,13 +38,15 @@ const UniversityEducationSection = () => {
        display="grid"
        gridTemplateColumns="repeat(2,minmax(0,1fr))"
        gridGap={8}>
-       {projects.map((project) => (
-         <Card
-           key={project.title}
-           title={project.title}
-           description={project.description}
-           url={project.url}
-           imageSrc={project.getImageSrc()}
+       {Education.map((ele) => (
+         <CardLg
+           key={ele.title}
+           title={ele.title}
+           description={ele.description}
+           date={ele.date}
+           company={ele.university}
+           thisIcon={ele.icon}
+           imageSrc={ele.getImageSrc()}
          />
        ))}
      </Box>

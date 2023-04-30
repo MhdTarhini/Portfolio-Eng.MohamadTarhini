@@ -36,31 +36,31 @@ const projects = [
  
 const EngineeringProjectsSection = () => { 
   
- return (
-   <FullScreenSection
-     backgroundColor="#14532d"
-     isDarkBackground
-     p={8}
-     alignitems="flex-start"
-     spacing={8}>
-     <Heading as="h1" id="EngineeringProjects-section">
-       Engineering Projects
-     </Heading>
-     <Box
-       display="grid"
-       gridTemplateColumns="repeat(2,minmax(0,1fr))"
-       gridGap={8}>
-       {projects.map((project) => (
-         <Card
-           key={project.title}
-           title={project.title}
-           description={project.description}
-           url={project.url}
-           imageSrc={project.getImageSrc()}
-         />
-       ))}
-     </Box>
-   </FullScreenSection>
+ return (<h1>EngineeringProjectsSection</h1>
+//    <FullScreenSection
+//      backgroundColor="#14532d"
+//      isDarkBackground
+//      p={8}
+//      alignitems="flex-start"
+//      spacing={8}>
+//      <Heading as="h1" id="EngineeringProjects-section">
+//        Engineering Projects
+//      </Heading>
+//      <Box
+//        display="grid"
+//        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+//        gridGap={8}>
+//        {projects.map((project) => (
+//          <Card
+//            key={project.title}
+//            title={project.title}
+//            description={project.description}
+//            url={project.url}
+//            imageSrc={project.getImageSrc()}
+//          />
+//        ))}
+//      </Box>
+//    </FullScreenSection>
  ); 
 }; 
  

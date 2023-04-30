@@ -1,7 +1,7 @@
 import React from "react";
 import FullScreenSection from "../FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
-import CvCard from "../MinCard";
+import MinCard from "../MinCard";
 
 const projects = [
   {
@@ -49,6 +49,18 @@ const projects = [
 ];
 
 const CvSection = () => {
+    const handleClick = (anchor) => () => {
+    const id = `${anchor}-section`;
+    console.log(id);
+    const element = document.getElementById(id);
+    console.log(element)
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
   return (
     <FullScreenSection
       backgroundColor="#14532d"
@@ -63,13 +75,14 @@ const CvSection = () => {
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
         gridGap={8}>
-        {projects.map((project) => (
-          <CvCard
-            key={project.title}
-            title={project.title}
-            description={project.description}
-            url={project.url}
-            imageSrc={project.getImageSrc()}
+        {projects.map((ele) => (
+          <MinCard
+          handleClick={handleClick(ele.url)}
+          cursor={"pointer"}
+            key={ele.title}
+            title={ele.title}
+            description={ele.description}
+            imageSrc={ele.getImageSrc()}
           />
         ))}
       </Box>

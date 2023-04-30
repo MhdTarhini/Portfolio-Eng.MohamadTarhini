@@ -1,67 +1,77 @@
 import React from "react"; 
 import FullScreenSection from "../FullScreenSection"; 
-import { Box, Heading } from "@chakra-ui/react"; 
-import Card from "../Card"; 
+import { Box, Heading} from "@chakra-ui/react";  
+import MinCard from "../MinCard";
  
-const projects = [
+const experience = [
   {
-    title: "React Space",
-    description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
-    url: "",
+    title: "WFP Projects Supervisor",
+    Date:"20/06/2022 - 05/11/2022",
+      company:"IPSOS Company",
+      description:"In several projects (Impact, World Food Program,..), my tasks was data organization and distribution the surveyors and give them they daily tasks, daily and weekly reports, plus daily field & data control. ",
+    getImageSrc: () => require("../images/WfpLogo.png"),
   },
   {
-    title: "React Infinite Scroll",
-    description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
-    url: "http://www.google.com/",
+    title: "UNICEF Project Supervisor",
+     Date:"07/03/2022 - 20/05/2022",
+      company:"IPSOS Company",
+      description:"Project about the anemia for Lebanese children (SMART Project) my tasks was provided guidance and training to team members, ensuring that all activities were completed accurately and on time, make daily reports.",
+    getImageSrc: () => require("../images/UnicefLogo.png"),
   },
   {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-    url: "http://www.google.com/",
+    title: "Training Office Enginer",
+    Date:"27/09/2021 - 07/12/2021",
+      company:"Ebco Bitar Company",
+      description:"Design building , moduling building and assign load on Etabs, check slab and fondation design & punching on Safe & S-concrete, using Robot & Revit.",
+    getImageSrc: () => require("../images/officeEngineer.jpg"),
   },
   {
-    title: "Event planner 22",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require(""),
-    url: "projects2",
+    title: "Training Site Enginer",
+          Date:"07/04/2021 - 18/08/2021",
+      company:"Hassib Ibrahim Company",
+      description:"My tasks were to supervise the reinforcement works, shop drawings, excavation work, weekly and daily reports.",
+    getImageSrc: () => require("../images/SiteEngineer.jpg"),
+  },
+  {
+    title: "Promoter & Supervisor",
+    Date:"2015-2020",
+      company:"Merlun Group Company",
+      description:"Promotion and sales Nestle Company machines in market, supervisor on south area.",
+    getImageSrc: () => require("../images/NestleCompnay.jpg"),
   },
 ]; 
  
-const CerticatesSection = () => { 
+const ExperienceSection = () => { 
   
  return (
-   <FullScreenSection
-     backgroundColor="#14532d"
-     isDarkBackground
-     p={8}
-     alignitems="flex-start"
-     spacing={8}>
-     <Heading as="h1" id="DevelopmentCertificates-section">
-       Front-End Development Certificates
-     </Heading>
-     <Box
-       display="grid"
-       gridTemplateColumns="repeat(2,minmax(0,1fr))"
-       gridGap={8}>
-       {projects.map((project) => (
-         <Card
-           key={project.title}
-           title={project.title}
-           description={project.description}
-           url={project.url}
-           imageSrc={project.getImageSrc()}
-         />
-       ))}
-     </Box>
-   </FullScreenSection>
- ); 
+    <FullScreenSection
+      backgroundColor="#14532d"
+      isDarkBackground
+      p={8}
+      alignitems="flex-start"
+      spacing={8}>
+      <Heading as="h1" id="Experience-section">
+        Experience
+      </Heading>
+      <Box
+        display="grid"
+        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridGap={8}
+        >
+        {experience.map((ele) => (
+          <MinCard
+          key={ele.title}
+        title={ele.title}
+        company={ele.company}
+        Date={ele.Date}
+        description={ele.description}
+        imageSrc={ele.getImageSrc()}
+        />
+        ))}
+        
+      </Box>
+    </FullScreenSection>
+ )
 }; 
  
-export default CerticatesSection;
+export default ExperienceSection;

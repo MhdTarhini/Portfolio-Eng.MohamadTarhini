@@ -37,31 +37,31 @@ const projects = [
 const SkillsSection = () => { 
   
  return (
-   <FullScreenSection
-     backgroundColor="#14532d"
-     isDarkBackground
-     p={8}
-     alignitems="flex-start"
-     spacing={8}>
-     <Heading as="h1" id="Skills-section">
-       Skills & Coding language
-     </Heading>
-     <Box
-       display="grid"
-       gridTemplateColumns="repeat(2,minmax(0,1fr))"
-       gridGap={8}>
-       {projects.map((project) => (
-         <Card
-           key={project.title}
-           title={project.title}
-           description={project.description}
-           url={project.url}
-           imageSrc={project.getImageSrc()}
-         />
-       ))}
-     </Box>
-   </FullScreenSection>
- ); 
+//    <FullScreenSection
+//      backgroundColor="#14532d"
+//      isDarkBackground
+//      p={8}
+//      alignitems="flex-start"
+//      spacing={8}>
+//      <Heading as="h1" id="Skills-section">
+//        Skills & Coding language
+//      </Heading>
+//      <Box
+//        display="grid"
+//        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+//        gridGap={8}>
+//        {projects.map((project) => (
+//          <Card
+//            key={project.title}
+//            title={project.title}
+//            description={project.description}
+//            url={project.url}
+//            imageSrc={project.getImageSrc()}
+//          />
+//        ))}
+//      </Box>
+//    </FullScreenSection>
+ <h1>SkillsSection</h1>); 
 }; 
  
 export default SkillsSection;

@@ -23,7 +23,7 @@ const LandingSection = () => (
         </Heading>
       </VStack>
       <VStack spacing={6}>
-        <Heading style={{ height: 80 }} as="h1" size="3xl" noOfLines={1}>
+        <Heading style={{ height: 80 }} as="h1" size="2xl" noOfLines={1}>
           {bio}
         </Heading>
       </VStack>
