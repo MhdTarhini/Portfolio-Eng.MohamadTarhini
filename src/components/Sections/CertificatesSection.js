@@ -2,7 +2,7 @@ import React from "react";
 import FullScreenSection from "../FullScreenSection"; 
 import { Box, Heading } from "@chakra-ui/react"; 
 import CardLg from "../Card";
-import { faCertificate } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate} from "@fortawesome/free-solid-svg-icons";
 
  
 const MetaCertificate = {
@@ -19,6 +19,7 @@ const Certificates = [
   {
     title: "Programming with JavaScript",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Creating JavaScript codes, Creating and manipulating objects and arrays ",
     getImageSrc: () => require("../images/Programming with JavaScript - Coursera-Meta_page-0001.jpg"),
@@ -27,6 +28,7 @@ const Certificates = [
   {
     title: "ReactJs Advanced",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Create robust and reusable components with advanced techniques and learn different patterns to reuse common behavior, Interact with a remote server and fetch and post data via an API, Seamlessly test React applications with React Testing Library & Integrate commonly used React libraries to streamline your application development",
     getImageSrc: () => require("../images/ReactJs Advanced_page-0001.jpg"),
@@ -35,6 +37,7 @@ const Certificates = [
   {
     title: "Principles of UX-UI Design",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Describe the fundamentals of User, Experience (UX) design and research, Describe accessibility considerations in design, Practice developing user empathy through research & Create wireframes and prototypes in Figma",
     getImageSrc: () => require("../images/Principles of UX-UI Design_page-0001.jpg"),
@@ -43,6 +46,7 @@ const Certificates = [
   {
     title: "Version Control",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Implement Version Control systems, Navigate and configure using the command line, Use a GitHub repository. Create a GitHub repository, Manage code revisions",
     getImageSrc: () => require("../images/Version Control -Coursera - Meta_page-0001.jpg"),
@@ -51,6 +55,7 @@ const Certificates = [
   {
     title: "HTML and CSS in Depth",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Create a simple form with a responsive layout using HTML5 and CSS, Create a responsive layout using CSS, Create a UI using Bootstrap & Implement debugging tools",
     getImageSrc: () => require("../images/HTML and CSS in Depth - Coursera - Meta_page-0001.jpg"),
@@ -59,6 +64,7 @@ const Certificates = [
   {
     title: "ReactJs Basics",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
     getImageSrc: () => require("../images/ReactJs Basics - Coursera Meta_page-0001.jpg"),
@@ -67,6 +73,7 @@ const Certificates = [
   {
     title: "Coding Interview Preperation",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Pseudocode, Algorithms, Communication, Data Structure, Generale Computer Science",
     getImageSrc: () => require("../images/Coding Interview Preperation - Coursera - Meta_page-0001.jpg"),
@@ -75,6 +82,7 @@ const Certificates = [
   {
     title: "Front-End developer Capstone",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Design and style a responsive User Interface (UI), Demonstrate clean and bug free coding, Use React components to create multiple views & Create a website front-end using React JS and JavaScript",
     getImageSrc: () => require("../images/Front-End developer Capstone - coursera - Meta_page-0001.jpg"),
@@ -83,6 +91,7 @@ const Certificates = [
   {
     title: "Inroducrion to front-end Developmente",
     company: "Coursera | META",
+    thisIcon:faCertificate,
     description:
       "Distinguish between front-end, back-end and full-stack developers, Create and style a webpage with HTML and CSS & The benefits of working with UI frameworks",
     getImageSrc: () => require("../images/Inroducrion to front-end Development_page-0001.jpg"),
@@ -120,7 +129,9 @@ const CerticatesSection = () => {
     </Box>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(3,minmax(0,1fr))"
+        justifyContent={"flex-start"}
+        gridTemplateColumns="repeat(auto-fill,minmax(300px,1fr))"
+        //  gridTemplateColumns="repeat(auto-fill,200px)"
         gridGap={8}
         >
         {Certificates.map((ele) => (
@@ -132,6 +143,7 @@ const CerticatesSection = () => {
            url={ele.url}
            description={ele.description}
            imageSrc={ele.getImageSrc()}
+           thisIcon={ele.thisIcon}
          />
         ))}
     </Box>

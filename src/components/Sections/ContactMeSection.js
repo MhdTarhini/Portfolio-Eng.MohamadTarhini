@@ -2,7 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { 
  Box, 
+ DarkMode, 
  Heading, 
+ Text, 
  VStack, 
 } from "@chakra-ui/react"; 
 import FullScreenSection from "../FullScreenSection"; 
@@ -16,12 +18,15 @@ const ContactMeSection = () => {
  
  return (
   <>
-   <FullScreenSection
+   {/* <FullScreenSection
      isDarkBackground
      backgroundColor="#512DA8"
      py={16}
-     spacing={8}>
-     <VStack w="1024px" p={32} alignItems="flex-start">
+     spacing={8}
+     > */}
+     <VStack height={"fit-content"} backgroundColor="#512DA8" color={"white"}
+    //  w="100%" p={32} alignItems="flex-start"
+     >
        <Heading as="h1" id="contactme-section">
          Contact me
        </Heading>
@@ -40,17 +45,17 @@ const ContactMeSection = () => {
              Email : Mohamed_Tarhini@live.com
            </a>
          </div>
-         <a style={{ fontSize: 20 }}>
+         <Text style={{ fontSize: 20 }} >
            <FontAwesomeIcon
              icon={faPhone}
              size="3x"
              style={{ marginRight: 20 }}
            />
            +961-76755233
-         </a>
+         </Text>
        </Box>
      </VStack>
-   </FullScreenSection>
+   {/* </FullScreenSection> */}
   
   </>
  ); 

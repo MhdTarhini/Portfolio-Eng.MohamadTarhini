@@ -17,6 +17,7 @@ const MinCard = ({ title, description, imageSrc, handleClick, company, Date, cur
              overflow="hidden"
             variant="outline"
             cursor={cursor}
+            backgroundColor={"white"}
             >
             <Image
             objectFit="cover"
@@ -26,10 +27,10 @@ const MinCard = ({ title, description, imageSrc, handleClick, company, Date, cur
             />
             <Stack>
               <CardBody>
-                <Heading size="md">{title}</Heading>
+                <Heading size="md" color={"#514242"}>{title}</Heading>
                 <Text color="#64748b" py='2'>
                 <b>{company}</b><br/>
-                <hr/>
+                {/* <hr/> */}
                 {Date}<br/>
                 {description}
                 </Text>

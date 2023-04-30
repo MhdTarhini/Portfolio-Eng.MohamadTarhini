@@ -80,7 +80,7 @@ const CvSection = () => {
           handleClick={handleClick(ele.url)}
           cursor={"pointer"}
             key={ele.title}
-            title={ele.title}
+            title={ele.title.toUpperCase()}
             description={ele.description}
             imageSrc={ele.getImageSrc()}
           />
