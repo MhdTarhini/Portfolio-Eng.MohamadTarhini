@@ -1,25 +1,37 @@
 {
   "files": {
     "main.css": "/Portfolio-Eng.MohamadTarhini/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio-Eng.MohamadTarhini/static/js/main.619ffb62.js",
+    "main.js": "/Portfolio-Eng.MohamadTarhini/static/js/main.3fbf14e3.js",
     "static/js/111.bb39efaf.chunk.js": "/Portfolio-Eng.MohamadTarhini/static/js/111.bb39efaf.chunk.js",
     "static/media/photo4.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
     "static/media/photo2.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo2.7d510936625768642967.jpg",
     "static/media/photo3.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo3.9a32dfac129b20149889.jpg",
     "static/media/photo1.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/photo1.76b22eb753ddc88e0626.jpg",
+    "static/media/Meta Front-End Developer Professional Certificate_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Meta Front-End Developer Professional Certificate_page-0001.f0b4402297cc771e3e04.jpg",
+    "static/media/Inroducrion to front-end Development_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Inroducrion to front-end Development_page-0001.23fdb09f7c95ea449a00.jpg",
+    "static/media/Front-End developer Capstone - coursera - Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Front-End developer Capstone - coursera - Meta_page-0001.c6e8efb96c89b9bc6012.jpg",
+    "static/media/Coding Interview Preperation - Coursera - Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Coding Interview Preperation - Coursera - Meta_page-0001.6a8fc644e0be3d60bf2a.jpg",
+    "static/media/Programming with JavaScript - Coursera-Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Programming with JavaScript - Coursera-Meta_page-0001.bb029a7308125772b9e8.jpg",
+    "static/media/Principles of UX-UI Design_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Principles of UX-UI Design_page-0001.49913eab46b9540ec700.jpg",
+    "static/media/HTML and CSS in Depth - Coursera - Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/HTML and CSS in Depth - Coursera - Meta_page-0001.5007755a9df03f011ad1.jpg",
+    "static/media/Version Control -Coursera - Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/Version Control -Coursera - Meta_page-0001.7e9706e98f6a85ba0920.jpg",
+    "static/media/ReactJs Advanced_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/ReactJs Advanced_page-0001.c0b226f947061355521b.jpg",
+    "static/media/ReactJs Basics - Coursera Meta_page-0001.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/ReactJs Basics - Coursera Meta_page-0001.350b885ae07223aa2a8d.jpg",
     "static/media/development-scaled.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/development-scaled.590d71ddab8cc0c5e47c.jpg",
     "static/media/certificate.webp": "/Portfolio-Eng.MohamadTarhini/static/media/certificate.ce9ae13a061fa84346ec.webp",
     "static/media/imp-of-work-ex.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/imp-of-work-ex.1edbbdcd964f9af72f7a.jpg",
+    "static/media/NestleCompnay.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/NestleCompnay.24bb81ea165ab653ad54.jpg",
     "static/media/civil.png": "/Portfolio-Eng.MohamadTarhini/static/media/civil.0b394f63c805faba5a33.png",
     "static/media/education.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/education.2589b6f3c474e5bbe956.jpg",
     "static/media/skills.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/skills.04b61b0b1dd0bf555ffc.jpg",
+    "static/media/officeEngineer.jpg": "/Portfolio-Eng.MohamadTarhini/static/media/officeEngineer.b7898f21b6a649bc1b3d.jpg",
     "index.html": "/Portfolio-Eng.MohamadTarhini/index.html",
     "main.df6a7eab.css.map": "/Portfolio-Eng.MohamadTarhini/static/css/main.df6a7eab.css.map",
-    "main.619ffb62.js.map": "/Portfolio-Eng.MohamadTarhini/static/js/main.619ffb62.js.map",
+    "main.3fbf14e3.js.map": "/Portfolio-Eng.MohamadTarhini/static/js/main.3fbf14e3.js.map",
     "111.bb39efaf.chunk.js.map": "/Portfolio-Eng.MohamadTarhini/static/js/111.bb39efaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.619ffb62.js"
+    "static/js/main.3fbf14e3.js"
   ]
 }
